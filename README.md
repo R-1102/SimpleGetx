@@ -1,16 +1,33 @@
-# state_management
+# Mini Heart Toggle App (Flutter + GetX)
 
-A new Flutter project.
+A simple Flutter app demonstrating reactive state management using **GetX**. Tap on the heart icon to toggle between a filled and empty heart.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Reactive UI updates using GetX.
+- Heart toggle animation with a single tap.
+- Clean architecture with controller separation.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK installed
+- Dart SDK
+- A code editor (e.g., VS Code, Android Studio)
+
+### Dependencies
+
+Add the following to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+```
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/42daae42-f4b3-42e8-96f9-fdcd9d17761a" height="500" />
+  <img src="https://github.com/user-attachments/assets/18a97916-236d-49db-8f4f-3668639295f7" height="500" />
+</p>
